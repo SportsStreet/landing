@@ -205,7 +205,7 @@ select{
 /* .r2_page3_right */
 .r2_page3_right{
     margin-top: 180px;
-    margin-right: 20px;
+    margin-left: -100px;
 }
 .p1_page3{
     text-align: right;
