@@ -346,3 +346,370 @@ select{
         opacity: 1;
     }
   }
+
+
+
+
+/* mahmoud */
+
+/* page 4 */
+.page4{
+    height: auto;
+}
+/* row 1 */
+.firstball{
+    margin-top: 30px;
+    margin-left: -40%;
+}
+.f_ball{
+    background: #004061 0% 0% no-repeat padding-box;
+    width: 87px;
+    height: 87px;
+    border-radius: 50px;
+    opacity: 1;
+}
+
+/* row 2 */
+
+.sec_row{
+    background: transparent linear-gradient(243deg, #EDEEF600 0%, #F2F3F7 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    margin-top: 20px;
+    opacity: 1;
+}
+
+/* row 2 left */
+.div1{
+    margin-top: 62px;
+}
+
+.third_ball{
+    background:#F65F4D 0% 0% no-repeat padding-box;
+    margin-left: 610px;
+    border-radius: 50px;
+    width: 63px;
+    height: 63px;
+    opacity: 1;
+}
+
+.header_page4{
+    text-align: right;
+    font: normal normal bold 89px/90px Noto Sans Arabic UI;
+    letter-spacing: -2.04px;
+    color: #000000;
+    opacity: 1;
+}
+
+.p1_page4{
+    text-align: right;
+    font: normal normal 300 22px/35px Noto Sans Arabic UI;
+    letter-spacing: 0px;
+    color: #898989;
+    opacity: 1;
+
+}
+
+/* row 2 right */
+
+.div2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.background{
+    margin-top: -100%;
+    margin-left: 50px;
+    opacity: 1;
+}
+
+.big_ball{
+    background :#F65F4D 0% 0% no-repeat padding-box;
+    width: 356px;
+    height: 356px ;
+    border-radius: 300px;
+    opacity: 1;
+  
+} 
+
+.sec_ball{
+    background :#004061 0% 0% no-repeat padding-box;
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+    margin-left: 354px;
+    margin-bottom: -44px;
+    opacity: 1;
+}
+
+/* row 3 */
+.forth_ball{
+    background :#F65F4D 0% 0% no-repeat padding-box;
+    width: 104px;
+    height: 104px;
+    border-radius: 50px;
+    margin-top: -55px;
+    opacity: 1;
+
+}
+
+/* **************************************************************************************** */
+
+/* page 5 */
+
+.page5{
+    height: auto;
+}
+
+/* row 1 */
+
+/* row 1 left */
+
+.star_pic{
+    margin-top: 500px;
+    margin-right: -60px;
+}
+
+
+/* row 1 right */
+
+.div2_p5{
+    margin-top: 213px;
+}
+.p1_p5{
+    text-align: right;
+    font: normal normal bold 25px/18px Noto Sans Arabic UI;
+    letter-spacing: -0.79px;
+    color: #F65F4D;
+    opacity: 1;
+}
+.h2_p5{
+    text-align: right;
+    font: normal normal bold 59px/72px Noto Sans Arabic UI;
+    letter-spacing: -2.04px;
+    color: #000000;
+    opacity: 1;
+}
+
+.p2_p5{
+    text-align: right;
+    font: normal normal 300 16px/28px Noto Sans Arabic UI;
+    letter-spacing: 0px;
+    color: #868686;
+    opacity: 1;
+}
+
+/* row 2 */
+
+.s_row_p5{
+    margin-top: 100px;
+}
+
+
+/* ******************************************************************* */
+/* page 6 */
+.h1_p6{
+    text-align: right;
+font: normal normal bold 44px/57px Noto Sans Arabic UI;
+letter-spacing: -1.57px;
+color: #ffffff;
+opacity: 1;
+font-size: 30px;
+margin-top: 90px;
+
+}
+.p1_p6{
+    margin-top: 60px;
+    margin-right: 25px;
+}
+
+
+/* .google_pic{
+margin-left: 300px;
+}
+.app_store{
+margin-left: 120px;
+
+} */
+.div1_p6{
+    margin-top: 210px;
+    margin-right:-30 px;
+}
+.picture{
+   margin-left: 300px;
+  
+}
+.div2_p6{
+    margin-left: -65px;
+}
+.f_row_p6{
+    background: #181E4B 0% 0% no-repeat padding-box;
+border-radius: 50px;
+opacity: 1;
+}
+
+.page6{
+    height: auto;
+    margin-top: 100px;
+}
+/* ****************************************************************************************************** */
+/* page 7  */
+ 
+.h1_p7{
+    text-align: right;
+font: normal normal medium 44px/61px Noto Sans Arabic UI;
+letter-spacing: -1.57px;
+color: #000000;
+opacity: 1;
+
+}
+.pic4_p7{
+    margin-left: 30px;
+    margin-top: -70px;
+}
+.P2_P7{
+    text-align: center;
+font: normal normal normal 16px/9px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+/* ************************************************************************* */
+
+/* mobile */
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    /* page 4 */
+     .f_ball ,.third_ball , .sec_ball , .forth_ball  , .s_row_p5{
+        display: none;
+    }
+
+    .sec_row{
+        margin: 0;
+    }
+    .div1{
+        margin: 0;
+    }
+    .header_page4{
+        text-align: center;
+        font: normal normal bold 44px/50px Noto Sans Arabic UI;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    .p1_page4{
+        text-align: center;
+        font: normal normal 300 18px/30px Noto Sans Arabic UI;
+        letter-spacing: 0px;
+        color: #868686;
+        opacity: 1;
+    }
+
+    .div2{
+        margin-top: 30px;
+    }
+    .background{
+        margin-top: -110%;
+    }
+    .big_ball{
+        background: #FAB8C3 0% 0% no-repeat padding-box;
+        margin-top: 60px;
+    }
+    .sec_row{
+        background: white;
+    }
+
+    /* ****************************************************************** */
+
+    /* paage 5 */
+    .page5{
+        margin: 0;
+    }
+
+    /* row 1 */
+    .div2_p5 {
+        margin-top: 30px;
+    }
+   .p1_p5{
+       text-align: center;
+       font: normal normal bold 28px/45px Noto Sans Arabic UI;
+       letter-spacing: -0.79px;
+       color: #F65F4D;
+       opacity: 1;
+       
+   }
+   .h2_p5{
+    text-align: center;
+    font: normal normal bold 39px/56px Noto Sans Arabic UI;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 0;
+   }
+   .p3_p5{
+    text-align: center;
+    font: normal normal 300 18px/30px Noto Sans Arabic UI;
+    letter-spacing: 0px;
+    color: #868686;
+    opacity: 1;
+    margin-right: -20px;
+   }
+   .div1_p5{
+
+   margin-top: 0px;
+   }
+
+   .star_pic{
+    margin-bottom: 10px;
+    margin-left: -100px;
+   }
+   .phone_pic{
+    margin-top: -20px;
+    margin-left: -5px;
+   }
+                                                      /* page 6 */
+ .h1_p6{
+     text-align: center;
+
+ }
+ .pic4_p5{
+    
+     width: 418px;
+     height: 418px;
+     margin-left: 50px;
+ }
+ .picture{
+     margin-left: 43px;
+ }
+ .f_row_p6{
+    background: #181E4B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 0px;
+ }
+ .div1_p6 {
+    margin-top: -41px;
+ }
+/* ************************************************************* */
+/* page 7  */
+.P2_P7{
+   text-align: center;
+   /* margin-left: 120px; */
+  
+} 
+.h1_p7{
+    text-align: center;
+}
+.pic4_p7{
+    margin-left: 0px;
+    width: 350px;
+    margin-left: 35px;
+}
+.s_div{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+} 
