@@ -19,13 +19,9 @@ p {
 .navbar{
     padding-top: 30px;
 }
-.links{
-    margin-left: 69%;
-}
-  
-.nav-item{
+.nav-link{
     margin-left: 20px;
-    text-align: right;
+    text-align:right;
     font: normal normal bold 18px/24px Noto Sans Arabic UI;
     letter-spacing: 0px;
     color: #212832;
@@ -51,9 +47,6 @@ select{
     background:none;
     margin-left: 15px;
  
-}
-.logo{
-    margin-left: 50px;
 }
 
 
@@ -253,13 +246,31 @@ select{
     .navbar{
         display: block;
     }
+    .navbar-toggler{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 30px;
+    }
+    .logo{
+        position:absolute;
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+        margin-left: 20px;
+
+    }
+    .nav-link{
+        text-align: right;
+    }
+    .navbar-nav{
+        margin-top: 60px;
+    }
     .nav_button , select{
         display: none;
     }
-    .logo {
-        margin-left: 194px;
-    }
     .r2_right {
+        margin-top: 15%;
         text-align: center;
     }
     .p1_page1{
@@ -282,12 +293,12 @@ select{
         margin-left: 0;
     }
 
-    .r2_left {
+    /* .r2_left {
         background: #F6D4CE 0% 0% no-repeat padding-box;
         opacity: 1;
         border-top-left-radius: 550px;
         border-bottom-left-radius: 550px;
-    }
+    } */
 
 
     /* page 2 */
