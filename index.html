@@ -11,6 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 
     <link rel="stylesheet" href="main.css">
 
@@ -18,40 +20,39 @@
 </head>
 
 <body>
-    <section class="page1">
+    <section class="page1" role="navigation">
         <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
 
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <div class="navbar-nav me-auto mb-2 mb-lg-0 r1_left">
+                <button class="nav_button">حمل التطبيق</button>
+                <select>
+                    <option value="EN">EN</option>
+                    <option value="AR">AR</option>
+                    <option value="FR">FR</option>
+                    <option value="SP">SP</option>
+                </select>
 
-                            <button class="nav_button">حمل التطبيق</button>
-                            <select>
-                                <option value="EN">EN</option>
-                                <option value="AR">AR</option>
-                                <option value="FR">FR</option>
-                                <option value="SP">SP</option>
-                            </select>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                        </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto links ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">اعرف اكتر</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">خدماتنا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">احنا مين</a>
+                        </li>
+                    </ul>
 
-                        <div class="d-flex r1_right">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">اعرف اكتر</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">خدماتنا</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">احنا مين</a>
-                                </li>
-                                <li class="nav-item logo"><img src="img/Filnady Logo EN.png"></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
+                <img class="logo" src="img/Filnady Logo EN.png">
             </nav>
         </div>
 
@@ -225,7 +226,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row s_row_p5">
+            <!-- <div class="row s_row_p5">
                 <div class="col-lg-2 offset-lg-2">
                     <img class="pic1_p5" src="pic/Filnady Logo EN.png">
                 </div>
@@ -241,7 +242,7 @@
                 <div class="col-lg-2">
                     <img class="pic1_p5" src="pic/Filnady Logo EN.png">
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     

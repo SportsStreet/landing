@@ -19,9 +19,17 @@ p {
 .navbar{
     padding-top: 30px;
 }
+.links{
+    margin-left: 69%;
+}
   
 .nav-item{
     margin-left: 20px;
+    text-align: right;
+    font: normal normal bold 18px/24px Noto Sans Arabic UI;
+    letter-spacing: 0px;
+    color: #212832;
+    opacity: 1;
 }
 
 .nav_button {
@@ -241,6 +249,15 @@ select{
     /* page 1 */
     .page1{
         background: white; 
+    }
+    .navbar{
+        display: block;
+    }
+    .nav_button , select{
+        display: none;
+    }
+    .logo {
+        margin-left: 194px;
     }
     .r2_right {
         text-align: center;
