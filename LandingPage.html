@@ -7,21 +7,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./fonts/NotoSansArabicUI-SemiCondensedBlack.ttf">
 
     <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" href="fonts/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>desktop</title>
 </head>
 
 <body>
     <section class="page1">
+
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <div class="offset-lg-1 offset-xl-1">
+                <div class="">
                     <button class="nav_button">حمل التطبيق</button>
                     <select>
                         <option value="EN">EN</option>
@@ -37,15 +40,15 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-lg-5 offset-xl-7">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-lg-6 " id="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">اعرف اكتر</a>
+                            <a class="nav-link" href="#page3">اعرف اكتر</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">خدماتنا</a>
+                            <a class="nav-link" href="#page2">خدماتنا</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">احنا مين</a>
+                            <a class="nav-link active" aria-current="page" href="#page1">احنا مين</a>
                         </li>
                     </ul>
                 </div>
@@ -55,16 +58,15 @@
         </nav>
 
         <div class="container">
-            <div class="row r2_page1">
-                <div class="col-12 col-sm-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-lg-1 order-xl-1 ">
-                    <div class="r2_left">
-                        <img class=" img-fluid pic_page1" src="img/Group 125.svg">
+            <div class="row ">
+                <div class="col-lg-7 col-12 order-1">
+                    <div class="r2_left group24">
+                        <img class=" img-fluid" src="img/Group 125.svg">
                     </div>
-
                 </div>
-                <div class="col-11 offset-1 col-sm-11 offset-sm-1 col-lg-5 col-xl-5 offset-xl-1 order-1 order-sm-1 order-lg-2 order-xl-2">
+                <div class="col-lg-5 col-12 order-lg-1">
                     <div class="r2_right">
-                        <p class="p1_page1">في النادي</p>
+                        <p class="p1_page1" id="page1">في النادي</p>
                         <h2 class="h2_page1">اول و اكبر تجربة نادي افتراضية</h2>
                         <p class="p2_page1">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع
                             الشوارع والأزقة
@@ -80,48 +82,66 @@
         </div>
     </section>
 
-    <section class="page2">`
+    <section class="page2" id="page2">
         <div class="container">
-            <div class="row r1_page2">
-                <div class="col-12 col-sm-12 col-lg-5 offset-lg-4 col-xl-5 offset-xl-5 order-1 order-sm-1 order-lg-1 order-xl-1">
-                    <h1 class="h1_page2">ايه هي خدماتنا</h1>
+            <!-- <div class="row r1_page2">
+                <div
+                    class="col-12 col-sm-12 col-lg-5 offset-lg-4 col-xl-5 offset-xl-4 order-1 order-sm-1 order-lg-1 order-xl-1">
                 </div>
                 <div class="col-lg-2 offset-lg-1 order-lg-2 col-xl-1 offset-xl-1 order-xl-2">
-                    <img class="img_r1_page2" src="img/Group 4-2.svg">
                 </div>
+            </div> -->
+            <div>
+                <h1 class="h1_page2">ايه هي خدماتنا</h1>
+            </div>
+            <div>
+                <img class="img_r1_page2" src="img/Group 4-2.svg">
             </div>
             <div class="row r2_page2">
-                <div
-                    class="col-12 col-sm-12 col-lg-3 col-xl-3 order-4 order-sm-4 order-lg-1 order-xl-1 box_page2">
-                    <img class="img_r2_page2" src="img/destination.svg">
-                    <p class="p1_page2">في كل مكان</p>
-                    <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع والأزقة
-                        المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة
-                        الرياضية واكتشاف المواهب.</p>
+                <div class=" col-lg-3 box_page2">
+                    <img class="img-fluid mb-3" src="img/destination.svg">
+                    <div>
+                        <p class="p1_page2">في كل مكان</p>
+                        <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع
+                            والأزقة
+                            المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق
+                            الممارسة
+                            الرياضية واكتشاف المواهب.</p>
+                    </div>
+
                 </div>
-                <div
-                    class="ccol-12 col-sm-12 col-lg-3 col-xl-3 order-3 order-sm-3 order-lg-2 order-xl-2 box_page2">
-                    <img class="img_r2_page2" src="img/winner.svg">
-                    <p class="p1_page2">بطولات</p>
-                    <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع والأزقة
-                        المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة
-                        الرياضية واكتشاف المواهب.</p>
+                <div class="ccol-12 col-sm-12 col-lg-3 col-xl-3 order-3 order-sm-3 order-lg-2 order-xl-2 box_page2">
+                    <img class="img-fluid mb-3" src="img/winner.svg">
+                    <div>
+                        <p class="p1_page2">بطولات</p>
+                        <p class="p2_page2">
+                            هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع والأزقة المصرية سواء
+                            المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة الرياضية
+                            واكتشاف المواهب.
+                        </p>
+                    </div>
                 </div>
-                <div
-                    class="col-12 col-sm-12 col-lg-3 col-xl-3 order-2 order-sm-2 order-lg-3 order-xl-3 box_page2">
-                    <img class="img_r2_page2" src="img/sport.svg">
-                    <p class="p1_page2">رياضات مختلفة</p>
-                    <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع والأزقة
-                        المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة
-                        الرياضية واكتشاف المواهب.</p>
+                <div class="col-12 col-sm-12 col-lg-3 col-xl-3 order-2 order-sm-2 order-lg-3 order-xl-3 box_page2">
+                    <img class="img-fluid mb-3" src="img/sport.svg">
+                    <div>
+                        <p class="p1_page2">رياضات مختلفة</p>
+                        <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع
+                            والأزقة
+                            المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق
+                            الممارسة
+                            الرياضية واكتشاف المواهب.</p>
+                    </div>
                 </div>
-                <div
-                    class="col-12 col-sm-12 col-lg-3 col-xl-3 order-1 order-sm-1 order-lg-4 order-xl-4 box_page2">
-                    <img class="img_r2_page2" src="img/Page-1.svg">
-                    <p class="p1_page2">أندية</p>
-                    <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع والأزقة
-                        المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة
-                        الرياضية واكتشاف المواهب.</p>
+                <div class="col-12 col-sm-12 col-lg-3 col-xl-3 order-1 order-sm-1 order-lg-4 order-xl-4 box_page2">
+                    <img class="img-fluid mb-3" src="img/Page-1.svg">
+                    <div>
+                        <p class="p1_page2">أندية</p>
+                        <p class="p2_page2">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع
+                            والأزقة
+                            المصرية سواء المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق
+                            الممارسة
+                            الرياضية واكتشاف المواهب.</p>
+                    </div>
 
                 </div>
             </div>
@@ -129,22 +149,21 @@
 
     </section>
 
-    <section class="page3">
+    <section class="page3" id="page3">
         <div class="container">
-            <div class="row r1_page3">
-                <div class="col-12 col-sm-12 col-lg-5 offset-lg-5 col-xl-5 offset-xl-5 order-1 order-sm-1 order-lg-1 order-xl-1">
-                    <h1 class="h1_page3">كيف يعمل التطبيق</h1>
-                </div>
+            <div>
+                <h1 class="h1_page3 mb-5">كيف يعمل التطبيق</h1>
             </div>
-
             <div class="row r2_page3">
-                <div class="col-12 col-sm-12 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1 order-2 order-sm-2 order-lg-1 order-xl-1 r2_page3_left">
+                <div class="col-12 col-lg-5  offset-lg-1  r2_page3_left order-1">
                     <div class="star1_page3">+</div>
-                    <img class="img1_page3" src="img/Group 4-1.png">
+                    <img src="img/Group 4-1.png">
                     <div class="star2_page3">+</div>
-                    <img class="img2_page3" src="img/Group 4.svg">
                 </div>
-                <div class=" col-12 col-sm-12 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1 order-1 order-sm-1 order-lg-2 order-xl-2 r2_page3_right">
+                <div class="img2_page3">
+                    <img src="img/Group 4.svg">
+                </div>
+                <div class=" col-12  col-lg-6  order-lg-1">
                     <p class="p1_page3">اول حاجة</p>
                     <h2 class="h2_page3">أبدًا بانشاء حساب ليك<br> عشان تتابع الاندية</h2>
                     <p class="p2_page3">
@@ -159,10 +178,146 @@
         </div>
     </section>
 
+    <section class="page4">
+        <div class="container">
+            <section class="page4Container">
+                <div class="row">
+                    <div class="col-lg-6 ">
+                        <div class="pag4Decr">
+                            <h1 class="pag4-h1">اختار الرياضيات المفضلة ليك</h1>
+                            <p class="page4-p">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع
+                                والأزقة المصرية سواء
+                                المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة
+                                الرياضية
+                                واكتشاف المواهب.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-2">
+                        <img class="img-fluid" src="img/mobileApp.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="cricle1"></div>
+        <div class="cricle2"></div>
+        <div class="cricle3"></div>
+        <div class="cricle4"></div>
+    </section>
+
+    <!-- section 5 -->
+    <section class="page5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-1 order-1">
+                    <img class="img-fluid" src="img/reserv.png">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="mt-5">
+                        <h2 class="h2_page5">و دلوقتي</h2>
+                        <h1 class="h1_page5">تقدر تحجز ملاعب و تبدا المنافسة</h1>
+                        <p class="p_page5">هي عبارة عن منصة اجتماعية تفاعلية لـ الرياضيون المصريون في جميع الشوارع
+                            والأزقة المصرية سواء
+                            المحترفين أو غير المحترفين يسعون لتقديم محتوى ترفيهي تنافسي لتوسيع نطاق الممارسة الرياضية
+                            واكتشاف المواهب.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stars">
+            <img src="img/Group 4.svg">
+        </div>
+    </section>
+
+    <!-- section 6 -->
+
+    <section class="page7">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-2 order-lg-1">
+                    <span>الاندية المشاركة</span>
+                </div>
+                <div class="col-12 col-lg-2 offset-lg-1">
+                    <img src="img/image 27.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-2">
+                    <img src="img/image 28.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-2">
+                    <img src="img/Group 63.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-2">
+                    <img src="img/image 30.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- section 7 -->
+
+    <section class="page6">
+        <div class="container">
+            <section class="page6Container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <h1 class="mt-5">يلا مستني ايه أبدا دلوقتي و جمع صحابك و ابداوا المنافسة</h1>
+                        <div class="text-center">
+                            <img src="img/Google Play.svg">
+                            <img src="img/Play Store.svg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img src="img/Group 150.png" class="img-fluid pic">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- page 8 -->
+
+    <section class="page8">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h1 class="h1_page8">
+                        تابعونا علي منصات التواصل الاجتماعي عشان تشوفوا احدث العروض و الاخبار الجديدة
+                    </h1>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="img/Rectangle 2.png" class="img-fluid">
+                    <!-- <div>
+                            <i class="fa fa-facebook"></i>
+                    </div>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center">
+        <p class="copyRigth">Copyrights 2021 Filnady</p>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+
+
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("navbar-nav");
+        var btns = header.getElementsByClassName("nav-link");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
 
 </body>
 
